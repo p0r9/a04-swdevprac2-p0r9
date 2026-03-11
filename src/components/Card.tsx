@@ -6,12 +6,14 @@ export default function Card({venueName,imgSrc}:{venueName:string,imgSrc:string}
     <div className="w-1/5 h-75 rounded-lg shadow-lg bg-white">
       
       <div className="w-full h-[70%] relative rounded-t-lg overflow-hidden">
+
         <Image
           src={imgSrc}
           alt="venue image"
           fill
           className="object-cover"
         />
+        
       </div>
 
       <div className="w-full h-[30%] p-2 text-black">

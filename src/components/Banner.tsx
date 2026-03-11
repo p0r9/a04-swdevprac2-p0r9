@@ -3,6 +3,7 @@ import Image from "next/image";
 
 export default function Banner() {
   return (
+    
     <div className={styles.banner}>
       
       <Image src={'/img/banner.jpg'} 
@@ -20,5 +21,6 @@ export default function Banner() {
       </div>
 
     </div>
+
   )
 }
